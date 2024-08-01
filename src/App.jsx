@@ -6,10 +6,10 @@ import { useState } from 'react';
 function App() {
   const [update,setupdate] =useState([0,0])
   return (
-    <>
+    <div style={{background:"black"}}>
     <Header update={update} setupdate={setupdate}></Header>
     <Cards update={update} setupdate={setupdate}></Cards>
-    </>
+    </div>
   )
 }
 
